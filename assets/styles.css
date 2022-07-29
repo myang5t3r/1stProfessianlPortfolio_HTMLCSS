@@ -1,0 +1,14 @@
+/* Universal selectors */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Element Selector */
+
+header {
+    display: flex;
+    border: 5px solid black;
+    background-color: lightblue;
+    padding: 2em;
+}
