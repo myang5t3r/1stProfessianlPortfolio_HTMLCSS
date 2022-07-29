@@ -2,7 +2,8 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Dosis', sans-serif; */
+
 }
 
 /* Element Selector */
@@ -20,11 +21,17 @@ header {
     border: 5px solid black;
     background-color: lightblue;
     padding: 1em;
+    color: white;
+    background-image: url("/assets/images/Spaceheader.jpg");
+    font-family: 'Lobster', cursive;
 }
 
   
 
 /* Class selector */
+/* .header_img {
+    background-image:"/assets/images/Spaceheader.jpg" ;
+} */
 
 .nav_img {
     /* position: relative; */
