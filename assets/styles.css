@@ -2,7 +2,8 @@
 
 * {
     box-sizing: border-box;
-    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Lobster', cursive;
+
 
 }
 
@@ -20,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive; /*Fix this */
     padding: 1em;
     color: white;
     font-size: 3em;
@@ -29,21 +30,49 @@ header {
  main {
     color: white;
     border: .25em solid blue;
-    height: 20em;
+    height: auto;
  } 
+
+ div {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    border: 5px solid lightblue;
+    box-shadow: 5px 10px green;
+    border-radius: 10px;
+    /* background-color: #692a66; */
+ }
 
 footer{
     border: .25em solid red;
     align-items: center;
-    height: 4em;
+    height: 5em;
     color: white;
 }
 /* Class selector */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: .25em solid white;
+}
+
+.container2 {
+    border: .25em solid green;
+}
 
 .nav_img {
     /* position: relative; */
     width: 50px;
     padding: 0;
     margin: 0 15px;
+}
 
+/* ID Sectors */
+
+#box-sec1 {
+    width: 40rem;
+    height: 30rem;
 }
