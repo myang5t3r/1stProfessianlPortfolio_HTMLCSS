@@ -23,19 +23,21 @@ header {
     align-items: center;
     font-family: 'Lobster', cursive; /*Fix this */
     padding: 1em;
+
+}
+
+h1 {
     color: white;
     font-size: 3em;
 }
-
  main {
     color: white;
     border: .25em solid blue;
     height: auto;
  } 
 
+ /* This */
  div {
-    width: 200px;
-    height: 200px;
     padding: 20px;
     margin: 20px;
     color: white;
@@ -46,23 +48,16 @@ header {
  }
 
 footer{
+    display: flex;
     border: .25em solid red;
     align-items: center;
-    height: 5em;
+    height: 10em;
     color: white;
-}
-/* Class selector */
-.container {
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: .25em solid white;
+    flex-wrap: wrap;
 }
-
-.container2 {
-    border: .25em solid green;
-}
-
+/* Class selector */
 .nav_img {
     /* position: relative; */
     width: 50px;
@@ -70,9 +65,36 @@ footer{
     margin: 0 15px;
 }
 
-/* ID Sectors */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: .25em solid white;
+}
 
-#box-sec1 {
+
+.box-sec1 {
     width: 40rem;
     height: 30rem;
 }
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border: .25em solid green;
+    
+    
+}
+
+.box-sec2 {
+    width: 15rem;
+    height: 15rem;
+}
+
+
+
+/* ID Sectors */
+
