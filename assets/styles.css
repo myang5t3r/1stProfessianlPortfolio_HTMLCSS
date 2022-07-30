@@ -26,6 +26,10 @@ header {
 
 }
 
+a {
+    color: white;
+}
+
 h1 {
     color: white;
     font-size: 3em;
@@ -36,15 +40,8 @@ h1 {
     height: auto;
  } 
 
- /* This */
  div {
-    padding: 20px;
-    margin: 20px;
-    color: white;
-    border: 5px solid lightblue;
-    box-shadow: 5px 10px green;
-    border-radius: 10px;
-    /* background-color: #692a66; */
+
  }
 
 footer{
@@ -59,11 +56,36 @@ footer{
 }
 /* Class selector */
 .nav_img {
-    /* position: relative; */
-    width: 50px;
+    position: relative;
+    width: 2.5em;
     padding: 0;
-    margin: 0 15px;
+    margin: 0 5em;
+    border: .2em solid white;
+    background-color: white;
+    border-radius: 10%;
+    align-items: center;
 }
+
+.dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    color: white;
+    margin: 0 0 0 1em;
+  }
+
+
+
+a:hover {
+    color: lightblue;
+ }
+.dropdown:hover .nav_img {background-color: lightblue} 
+.dropdown:hover .dropdown-content {display: block;}
+
 
 .container {
     display: flex;
@@ -75,8 +97,14 @@ footer{
 
 
 .box-sec1 {
-    width: 40rem;
-    height: 30rem;
+    width: 30rem;
+    height: 20rem;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    border: 5px solid lightblue;
+    box-shadow: 5px 10px green;
+    border-radius: 10px;
 }
 
 .container2 {
@@ -92,6 +120,13 @@ footer{
 .box-sec2 {
     width: 15rem;
     height: 15rem;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    border: 5px solid lightblue;
+    box-shadow: 5px 10px green;
+    border-radius: 10px;
+
 }
 
 
