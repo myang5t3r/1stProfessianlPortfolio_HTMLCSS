@@ -12,30 +12,38 @@ body {
     margin: 0px;
     padding: 0px;
     text-align: center;
+    background-image: url("/assets/images/spaceheader1.jpg");
+    background-size: 100%;
   }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 5px solid black;
-    background-color: lightblue;
+    font-family: 'Lobster', cursive;
     padding: 1em;
     color: white;
-    background-image: url("/assets/images/Spaceheader.jpg");
-    font-family: 'Lobster', cursive;
+    font-size: 3em;
 }
 
-  
+ main {
+    color: white;
+    border: .25em solid blue;
+    height: 20em;
+ } 
 
+footer{
+    border: .25em solid red;
+    align-items: center;
+    height: 4em;
+    color: white;
+}
 /* Class selector */
-/* .header_img {
-    background-image:"/assets/images/Spaceheader.jpg" ;
-} */
 
 .nav_img {
     /* position: relative; */
     width: 50px;
     padding: 0;
     margin: 0 15px;
+
 }
