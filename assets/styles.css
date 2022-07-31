@@ -49,6 +49,7 @@ h1 {
 footer{
     display: flex;
     border: .25em solid red;
+    border-radius: 10em;
     align-items: center;
     height: 10em;
     color: white;
@@ -108,6 +109,13 @@ a:hover {
     box-shadow: 5px 10px green;
     border-radius: 10px;
 }
+.avatar {
+    width: 20em;
+    height: 20em;
+    padding: 0;
+    border: .5em solid rgb(7, 8, 36);
+    border-radius: 10em;
+}
 
 .container2 {
     display: flex;
@@ -118,6 +126,7 @@ a:hover {
     
     
 }
+
 
 .box-sec2 {
     width: 15rem;
