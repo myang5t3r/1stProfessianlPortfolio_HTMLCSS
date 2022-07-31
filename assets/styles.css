@@ -180,5 +180,12 @@ a:hover {
     background-color: white;
 }
 
+.footer_icons_resume {
+    position: relative;
+    width: 3.5em;
+    padding: 0;
+    align-items: center;
+}
+
 /* ID Sectors */
 
