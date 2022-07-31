@@ -59,7 +59,7 @@ h3 {
 
 h4 {
     color: white;
-    font-size: 4em;
+    font-size: 3.5em;
     margin-top: 1.5em;
     margin-bottom: .5em;
     text-decoration: underline;
@@ -145,9 +145,23 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border: .25em solid green;
-    
 }
+
+ /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow */
+
+ .mySlides {
+    display:none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
 
 .box-sec2 {
     width: 30em;

@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/reset.css">
         <link rel="stylesheet" href="assets/styles.css">
+        <script type="text/javascript" scr="assets/script.js"></script>
     </head>
     <body>
         <header>
@@ -49,15 +50,35 @@
             </section>
             <h3 id="projects">PROJECTS</h3>
             <section class="container2">
-                <button class="arrows"><img src="assets/images/icons8-chevron-left-50.png" alt="Left button"></button>
-                <div>
-                    <img class="project_img" src="http://via.placeholder.com/640x360" alt="">
+                <button class="arrows" onclick="plusSlides(1)"><img src="assets/images/icons8-chevron-left-50.png" alt="Left button"></button>
+                <div class="mySlides fade"> 
+                    <div>
+                        <img class="project_img" src="http://via.placeholder.com/640x360" alt="">
+                    </div>
+                    <div class="box-sec2">
+                        <h2>Project Name 1</h2>
+                        <p class="sec2_p">Lorem i"psum dolor sit amet consectetur, adipisicing elit. Architecto fugit, blanditiis perferendis aliquam reprehenderit tempore eos iste ratione vero temporibus magnam, enim nam, recusandae perspiciatis.</p>
+                    </div>
+                </div>   
+                <div class="mySlides fade"> 
+                    <div>
+                        <img class="project_img" src="http://via.placeholder.com/640x360" alt="">
+                    </div>
+                    <div class="box-sec2">
+                        <h2>Project Name 2</h2>
+                        <p class="sec2_p">Lorem i"psum dolor sit amet consectetur, adipisicing elit. Architecto fugit, blanditiis perferendis aliquam reprehenderit tempore eos iste ratione vero temporibus magnam, enim nam, recusandae perspiciatis.</p>
+                    </div>
                 </div>
-                <div class="box-sec2">
-                    <h2>Project Name</h2>
-                    <p class="sec2_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto fugit, blanditiis perferendis aliquam reprehenderit tempore eos iste ratione vero temporibus magnam, enim nam, recusandae perspiciatis.</p>
+                <div class="mySlides fade"> 
+                    <div>
+                        <img class="project_img" src="http://via.placeholder.com/640x360" alt="">
+                    </div>
+                    <div class="box-sec2">
+                        <h2>Project Name 3</h2>
+                        <p class="sec2_p">Lorem i"psum dolor sit amet consectetur, adipisicing elit. Architecto fugit, blanditiis perferendis aliquam reprehenderit tempore eos iste ratione vero temporibus magnam, enim nam, recusandae perspiciatis.</p>
+                    </div>
                 </div>
-                <button class="arrows" ><img src="assets/images/icons8-chevron-right-50.png" alt=" Right Button"></button>
+                <button class="arrows" onclick="plusSlides(-1)"><img src="assets/images/icons8-chevron-right-50.png" alt=" Right Button"></button>                  
             </section>
         </main>
         <h4>Contact</h4>
@@ -73,5 +94,25 @@
             </a>
                 
         </footer>
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex-1].style.display = "flex";
+        }
+        </script>
     </body>
 </html>
