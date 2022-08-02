@@ -47,6 +47,7 @@ h1 {
     color: white;
     font-size: 2.5em;
     text-decoration: underline;
+    margin-top: 1em;
 }
 
 button {
@@ -233,5 +234,37 @@ a:hover {
     align-items: center;
 }
 
-/* ID Sectors */
+/* Responsive sizing with media query  */
 
+  @media screen and (max-width: 1134px) {
+    .mySlides {
+        flex-direction: column;
+    }
+    .box-sec2 {
+        border-radius: 3em;
+    }
+    .project_img {
+        border-radius: 3em;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    .box-sec1 {
+        width: 35rem;
+        height: 25rem;
+    }
+    .box-sec2, .project_img {
+        width: 20em;
+        height: 28em;
+        border-radius: 3em;
+        margin: 0 auto;
+        aspect-ratio: auto;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .box-sec1 {
+        width: 35rem;
+        height: 30rem;
+    }
+}
