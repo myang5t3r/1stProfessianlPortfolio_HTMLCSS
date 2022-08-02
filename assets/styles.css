@@ -49,6 +49,10 @@ h1 {
     text-decoration: underline;
 }
 
+button {
+    cursor: pointer;
+}
+
 h3 {
     color: white;
     font-size: 4em;
@@ -175,7 +179,7 @@ a:hover {
     width: 30em;
     height: 25em;
     color: white;
-    /* border: .30em solid white ; */
+    border: .30em solid white ;
     border-radius: 3em 0em 0em 3em;
 }
 
@@ -186,12 +190,26 @@ a:hover {
     margin: 2em;
 }
 
+.launch_button {
+    margin: 2em 0;
+    background-color: white;
+    font-size: 1.5em;
+    border-radius: .25em;
+}
+
+.launch_button:hover {
+    background-color: rgb(93, 200, 236)
+} 
+
+
 .arrows {
     background-color: white;
     border-radius: 3.75em;
 }
 
-.arrows:hover {background-color: rgb(93, 200, 236)} 
+.arrows:hover {
+    background-color: rgb(93, 200, 236)
+} 
 
 .footer_icons {
     position: relative;

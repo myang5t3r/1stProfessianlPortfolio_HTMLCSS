@@ -35,7 +35,7 @@
                     <p class="sec1_p">
                         Hello,<br> 
                         <br>
-                        I'm joyfully ecstatic on your inquiry and interest in learn more about me. I'm a proud Asian American, native Coloradoan, 
+                        I'm joyfully ecstatic on your inquiry and interest in learning more about me. I'm a proud Asian American, native Coloradoan, 
                         passionate lifelong learner, innovated problem solver and aspiring Full Stack Developer. In my portfolio you can find several 
                         projects that I have developed, my resume, and how to contact me. May your journey bring you peace and happiness.
                         <br>
@@ -50,35 +50,38 @@
             </section>
             <h3 id="projects">PROJECTS</h3>
             <section class="container2">
-                <button class="arrows" onclick="plusSlides(1)"><img src="assets/images/icons8-chevron-left-50.png" alt="Left button"></button>
+                <button class="arrows" onclick="plusSlides(-1)"><img src="assets/images/icons8-chevron-left-50.png" alt="Left button"></button>
                 <div class="mySlides fade"> 
                     <div>
-                        <img class="project_img" src="http://via.placeholder.com/640x360" alt="">
+                        <img class="project_img" src="assets/images/christopher-burns-8KfCR12oeUM-unsplash.jpg" alt="">
                     </div>
                     <div class="box-sec2">
                         <h2>Project Name 1</h2>
                         <p class="sec2_p">Lorem i"psum dolor sit amet consectetur, adipisicing elit. Architecto fugit, blanditiis perferendis aliquam reprehenderit tempore eos iste ratione vero temporibus magnam, enim nam, recusandae perspiciatis.</p>
+                        <button class="launch_button" onclick="launch()">Launch</button>
                     </div>
                 </div>   
                 <div class="mySlides fade"> 
                     <div>
-                        <img class="project_img" src="http://via.placeholder.com/640x360" alt="">
+                        <img class="project_img" src="assets/images/jonathan-borba-xRDuEeG1TVI-unsplash.jpg" alt="">
                     </div>
                     <div class="box-sec2">
                         <h2>Project Name 2</h2>
                         <p class="sec2_p">Lorem i"psum dolor sit amet consectetur, adipisicing elit. Architecto fugit, blanditiis perferendis aliquam reprehenderit tempore eos iste ratione vero temporibus magnam, enim nam, recusandae perspiciatis.</p>
+                        <button class="launch_button" onclick="launch()">Launch</button>
                     </div>
                 </div>
                 <div class="mySlides fade"> 
                     <div>
-                        <img class="project_img" src="http://via.placeholder.com/640x360" alt="">
+                        <img class="project_img" src="assets/images/thisisengineering-raeng-nyAzMQ6Ejgs-unsplash.jpg" alt="">
                     </div>
                     <div class="box-sec2">
                         <h2>Project Name 3</h2>
                         <p class="sec2_p">Lorem i"psum dolor sit amet consectetur, adipisicing elit. Architecto fugit, blanditiis perferendis aliquam reprehenderit tempore eos iste ratione vero temporibus magnam, enim nam, recusandae perspiciatis.</p>
+                        <button class="launch_button" onclick="launch()">Launch</button>
                     </div>
                 </div>
-                <button class="arrows" onclick="plusSlides(-1)"><img src="assets/images/icons8-chevron-right-50.png" alt=" Right Button"></button>                  
+                <button class="arrows" onclick="plusSlides(1)"><img src="assets/images/icons8-chevron-right-50.png" alt=" Right Button"></button>                  
             </section>
         </main>
         <h4>Contact</h4>
@@ -112,6 +115,12 @@
             slides[i].style.display = "none";
         }
         slides[slideIndex-1].style.display = "flex";
+        }
+        
+        // My code to launch to future projects, for now just launch to a few websites
+        const myarray  = ["http://www.google.com", "http://www.amazon.com", "http://du.edu" ];
+        launch = () => {
+            window.open(myarray[slideIndex-1])
         }
         </script>
     </body>
