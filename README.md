@@ -2,43 +2,37 @@
 
 ## Description
 
-In this project you will find my professional portfolio. As a full stack developer I enjoy all aspects of technology and continuously learning. My portfolio displays my talents, skills and several projects I have developed. For this portfolio, I learned and used sematic HTML, CSS and Javascript. 
+In this project you will find my professional portfolio. As a full stack developer I enjoy all aspects of technology and continuously learning. My portfolio displays my talents, skills and projects that I have developed. The following technologies were used to build this portfolio. 
 
-My CSS file contains: 
+CSS 
 * Media queries to compensate for mobile and desktop applications      
-* Pseudo Classes for added visual effect
-## Table of Contents (Optional)
+* Pseudo Classes and @keyframes for added visual effect
+* Universal, class, and element selectors 
+* No frameworks
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+HTML
+* Semantic HTML5
+* No frameworks
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+JavaScript
+* ECMAScript 6
+* Arrow functions
 
 ## Installation
+Access to repository here:
+[Repository url](https://github.com/myang5t3r/Professional_Portfolio)
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Live Deployment here:
+[https://myang5t3r.github.io/Professional_Portfolio/](https://myang5t3r.github.io/Professional_Portfolio/)
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The usages of this project is for informational and learning purposes only. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![Webpage snapshot](./assets/images/portfolio_img.PNG)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+Slideshow/carousel 
+* https://www.w3schools.com/howto/howto_js_slideshow.asp
 
