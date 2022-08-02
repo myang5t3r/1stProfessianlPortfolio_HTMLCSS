@@ -102,14 +102,11 @@ footer{
     margin: 0 0 0 1em;
   }
 
-
-
 a:hover {
     color: lightblue;
  }
 .dropdown:hover .nav_img {background-color: rgb(93, 200, 236)} 
 .dropdown:hover .dropdown-content {display: block;}
-
 
 .container {
     display: flex;
@@ -118,7 +115,6 @@ a:hover {
     flex-wrap: wrap;
     /* border: .25em solid white; */
 }
-
 
 .box-sec1 {
     width: 35rem;
