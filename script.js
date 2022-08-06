@@ -20,7 +20,8 @@ slides[slideIndex-1].style.display = "flex";
 }
 
 // My code to launch to future projects, for now just launch to a few websites
-const myarray  = ["http://www.google.com", "http://www.amazon.com", "http://du.edu" ];
+const myarray  = ["https://myang5t3r.github.io/PasswordGenerator/", 
+"http://www.amazon.com", "http://du.edu" ];
 let launch = () => {
     window.open(myarray[slideIndex-1])
 }
